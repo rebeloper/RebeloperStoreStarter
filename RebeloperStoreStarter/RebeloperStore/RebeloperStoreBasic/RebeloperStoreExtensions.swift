@@ -39,7 +39,7 @@ extension AppDelegate: MerchantDelegate, ProductInterfaceControllerDelegate {
     
     func merchant(_ merchant: Merchant, didConsume product: Product) {
         print("\(merchant) did consume product: \(product)")
-//        let productId = product.identifier
+        let productId = product.identifier
 //        RebeloperStore.saveRealPurchaseIntoRebeloperStoreKeychain(productId)
     }
     

@@ -33,12 +33,12 @@
 		C90F45702178504C00DE9663 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45652178504C00DE9663 /* CollectionViewController.swift */; };
 		C90F45712178504C00DE9663 /* VirtualGoodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45662178504C00DE9663 /* VirtualGoodsController.swift */; };
 		C90F45722178504C00DE9663 /* AutoRenewableSubscriptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */; };
-		C90F457A2178528100DE9663 /* RebeloperStoreNotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45742178528100DE9663 /* RebeloperStoreNotificationNames.swift */; };
-		C90F457B2178528100DE9663 /* RebeloperStoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45752178528100DE9663 /* RebeloperStoreKeys.swift */; };
-		C90F457C2178528100DE9663 /* RebeloperStoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45762178528100DE9663 /* RebeloperStoreExtensions.swift */; };
-		C90F457D2178528100DE9663 /* RebeloperStoreBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45772178528100DE9663 /* RebeloperStoreBasic.swift */; };
-		C90F457E2178528100DE9663 /* RebeloperStoreConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C90F45782178528100DE9663 /* RebeloperStoreConfig.plist */; };
-		C90F457F2178528100DE9663 /* RebeloperStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45792178528100DE9663 /* RebeloperStoreService.swift */; };
+		C90F459E21790A5E00DE9663 /* RebeloperStoreNotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F459821790A5E00DE9663 /* RebeloperStoreNotificationNames.swift */; };
+		C90F459F21790A5E00DE9663 /* RebeloperStoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F459921790A5E00DE9663 /* RebeloperStoreKeys.swift */; };
+		C90F45A021790A5E00DE9663 /* RebeloperStoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F459A21790A5E00DE9663 /* RebeloperStoreExtensions.swift */; };
+		C90F45A121790A5E00DE9663 /* RebeloperStoreBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F459B21790A5E00DE9663 /* RebeloperStoreBasic.swift */; };
+		C90F45A221790A5E00DE9663 /* RebeloperStoreConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C90F459C21790A5E00DE9663 /* RebeloperStoreConfig.plist */; };
+		C90F45A321790A5E00DE9663 /* RebeloperStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F459D21790A5E00DE9663 /* RebeloperStoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,12 +71,12 @@
 		C90F45652178504C00DE9663 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C90F45662178504C00DE9663 /* VirtualGoodsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualGoodsController.swift; sourceTree = "<group>"; };
 		C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRenewableSubscriptionsController.swift; sourceTree = "<group>"; };
-		C90F45742178528100DE9663 /* RebeloperStoreNotificationNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreNotificationNames.swift; sourceTree = "<group>"; };
-		C90F45752178528100DE9663 /* RebeloperStoreKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreKeys.swift; sourceTree = "<group>"; };
-		C90F45762178528100DE9663 /* RebeloperStoreExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreExtensions.swift; sourceTree = "<group>"; };
-		C90F45772178528100DE9663 /* RebeloperStoreBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreBasic.swift; sourceTree = "<group>"; };
-		C90F45782178528100DE9663 /* RebeloperStoreConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RebeloperStoreConfig.plist; sourceTree = "<group>"; };
-		C90F45792178528100DE9663 /* RebeloperStoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreService.swift; sourceTree = "<group>"; };
+		C90F459821790A5E00DE9663 /* RebeloperStoreNotificationNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreNotificationNames.swift; sourceTree = "<group>"; };
+		C90F459921790A5E00DE9663 /* RebeloperStoreKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreKeys.swift; sourceTree = "<group>"; };
+		C90F459A21790A5E00DE9663 /* RebeloperStoreExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreExtensions.swift; sourceTree = "<group>"; };
+		C90F459B21790A5E00DE9663 /* RebeloperStoreBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreBasic.swift; sourceTree = "<group>"; };
+		C90F459C21790A5E00DE9663 /* RebeloperStoreConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RebeloperStoreConfig.plist; sourceTree = "<group>"; };
+		C90F459D21790A5E00DE9663 /* RebeloperStoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreService.swift; sourceTree = "<group>"; };
 		D076FA13A65CF9EBE08932EB /* Pods-RebeloperStoreStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebeloperStoreStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-RebeloperStoreStarter/Pods-RebeloperStoreStarter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,7 @@
 		C90F454921784FF500DE9663 /* RebeloperStore */ = {
 			isa = PBXGroup;
 			children = (
-				C90F45732178528100DE9663 /* RebeloperStoreBasic */,
+				C90F459721790A5E00DE9663 /* RebeloperStoreBasic */,
 			);
 			path = RebeloperStore;
 			sourceTree = "<group>";
@@ -208,15 +208,15 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		C90F45732178528100DE9663 /* RebeloperStoreBasic */ = {
+		C90F459721790A5E00DE9663 /* RebeloperStoreBasic */ = {
 			isa = PBXGroup;
 			children = (
-				C90F45742178528100DE9663 /* RebeloperStoreNotificationNames.swift */,
-				C90F45752178528100DE9663 /* RebeloperStoreKeys.swift */,
-				C90F45762178528100DE9663 /* RebeloperStoreExtensions.swift */,
-				C90F45772178528100DE9663 /* RebeloperStoreBasic.swift */,
-				C90F45782178528100DE9663 /* RebeloperStoreConfig.plist */,
-				C90F45792178528100DE9663 /* RebeloperStoreService.swift */,
+				C90F459821790A5E00DE9663 /* RebeloperStoreNotificationNames.swift */,
+				C90F459921790A5E00DE9663 /* RebeloperStoreKeys.swift */,
+				C90F459A21790A5E00DE9663 /* RebeloperStoreExtensions.swift */,
+				C90F459B21790A5E00DE9663 /* RebeloperStoreBasic.swift */,
+				C90F459C21790A5E00DE9663 /* RebeloperStoreConfig.plist */,
+				C90F459D21790A5E00DE9663 /* RebeloperStoreService.swift */,
 			);
 			path = RebeloperStoreBasic;
 			sourceTree = "<group>";
@@ -299,7 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90F453821784DF100DE9663 /* LaunchScreen.storyboard in Resources */,
-				C90F457E2178528100DE9663 /* RebeloperStoreConfig.plist in Resources */,
+				C90F45A221790A5E00DE9663 /* RebeloperStoreConfig.plist in Resources */,
 				C90F453521784DF100DE9663 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,13 +358,13 @@
 				C90F456B2178504C00DE9663 /* AutoRenewableSubscritpionContent1.swift in Sources */,
 				C90F456D2178504C00DE9663 /* AutoRenewableSubscritpionContent2.swift in Sources */,
 				C90F45592178503C00DE9663 /* NonConsumablesHeader.swift in Sources */,
-				C90F457F2178528100DE9663 /* RebeloperStoreService.swift in Sources */,
+				C90F45A321790A5E00DE9663 /* RebeloperStoreService.swift in Sources */,
 				C90F45712178504C00DE9663 /* VirtualGoodsController.swift in Sources */,
 				C90F452E21784DEF00DE9663 /* AppDelegate.swift in Sources */,
-				C90F457B2178528100DE9663 /* RebeloperStoreKeys.swift in Sources */,
+				C90F459F21790A5E00DE9663 /* RebeloperStoreKeys.swift in Sources */,
 				C90F456E2178504C00DE9663 /* SecondaryVirtualCurrencyController.swift in Sources */,
 				C90F45572178503C00DE9663 /* SecondaryVirtualCurrencyHeader.swift in Sources */,
-				C90F457D2178528100DE9663 /* RebeloperStoreBasic.swift in Sources */,
+				C90F45A121790A5E00DE9663 /* RebeloperStoreBasic.swift in Sources */,
 				C90F45552178503C00DE9663 /* PurchaseCell.swift in Sources */,
 				C90F456F2178504C00DE9663 /* NonRenewableSubscriptionsController.swift in Sources */,
 				C90F45582178503C00DE9663 /* VirtualGoodsHeader.swift in Sources */,
@@ -372,9 +372,9 @@
 				C90F456A2178504C00DE9663 /* NextLevel.swift in Sources */,
 				C90F454421784E6900DE9663 /* Setup.swift in Sources */,
 				C90F454621784E6900DE9663 /* Extensions.swift in Sources */,
-				C90F457C2178528100DE9663 /* RebeloperStoreExtensions.swift in Sources */,
+				C90F45A021790A5E00DE9663 /* RebeloperStoreExtensions.swift in Sources */,
 				C90F45722178504C00DE9663 /* AutoRenewableSubscriptionsController.swift in Sources */,
-				C90F457A2178528100DE9663 /* RebeloperStoreNotificationNames.swift in Sources */,
+				C90F459E21790A5E00DE9663 /* RebeloperStoreNotificationNames.swift in Sources */,
 				C90F45562178503C00DE9663 /* AutoRenewableSubscriptionsHeader.swift in Sources */,
 				C90F45692178504C00DE9663 /* NonConsumablesController.swift in Sources */,
 				C90F455A2178503C00DE9663 /* NonRenewableSubscriptionsHeader.swift in Sources */,

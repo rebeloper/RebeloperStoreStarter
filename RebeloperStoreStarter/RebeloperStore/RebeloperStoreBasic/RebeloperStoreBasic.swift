@@ -61,6 +61,11 @@ class RebeloperStore {
     // MARK: -
     // MARK: Fetch Purchases
     
+    static func fetchPurchase(productId: String, kind: Product.Kind? = nil) -> Purchase? {
+        guard let product = RebeloperStore.fetchProduct(with: productId, kind: kind), let purchase = RebeloperStore.fetchPurchase(for: product) else { return nil }
+        return purchase
+    }
+    
     static func fetchPurchase(for product: Product) -> Purchase? {
         guard let productInterfaceController = productInterfaceController else { return nil }
         
