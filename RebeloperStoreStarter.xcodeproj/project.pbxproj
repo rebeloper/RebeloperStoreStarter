@@ -164,8 +164,8 @@
 		C90F454B2178501300DE9663 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */,
 				C90F45652178504C00DE9663 /* CollectionViewController.swift */,
+				C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */,
 				C90F455C2178504B00DE9663 /* ConsumablesController.swift */,
 				C90F455D2178504B00DE9663 /* NonConsumablesController.swift */,
 				C90F45642178504C00DE9663 /* NonRenewableSubscriptionsController.swift */,
