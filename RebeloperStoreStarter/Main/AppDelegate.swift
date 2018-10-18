@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // MARK: Start Rebeloper Store
-        startRebeloperStore()
+//        startRebeloperStore()
         
         window = UIWindow()
         window?.makeKeyAndVisible()
