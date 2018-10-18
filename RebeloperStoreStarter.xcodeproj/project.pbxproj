@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4E3D5F07507D54DF6553788 /* Pods_RebeloperStoreStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6663E16A5AC2DE3DCECCCBD /* Pods_RebeloperStoreStarter.framework */; };
 		C90F452E21784DEF00DE9663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F452D21784DEF00DE9663 /* AppDelegate.swift */; };
-		C90F453021784DEF00DE9663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F452F21784DEF00DE9663 /* ViewController.swift */; };
-		C90F453321784DEF00DE9663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90F453121784DEF00DE9663 /* Main.storyboard */; };
 		C90F453521784DF100DE9663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90F453421784DF100DE9663 /* Assets.xcassets */; };
 		C90F453821784DF100DE9663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90F453621784DF100DE9663 /* LaunchScreen.storyboard */; };
+		C90F454421784E6900DE9663 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F454121784E6900DE9663 /* Setup.swift */; };
+		C90F454521784E6900DE9663 /* DummyVirtualCurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F454221784E6900DE9663 /* DummyVirtualCurrencyController.swift */; };
+		C90F454621784E6900DE9663 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F454321784E6900DE9663 /* Extensions.swift */; };
+		C90F454821784E7700DE9663 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F454721784E7700DE9663 /* MainTabBarController.swift */; };
+		C90F45552178503C00DE9663 /* PurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F454D2178503C00DE9663 /* PurchaseCell.swift */; };
+		C90F45562178503C00DE9663 /* AutoRenewableSubscriptionsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F454F2178503C00DE9663 /* AutoRenewableSubscriptionsHeader.swift */; };
+		C90F45572178503C00DE9663 /* SecondaryVirtualCurrencyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45502178503C00DE9663 /* SecondaryVirtualCurrencyHeader.swift */; };
+		C90F45582178503C00DE9663 /* VirtualGoodsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45512178503C00DE9663 /* VirtualGoodsHeader.swift */; };
+		C90F45592178503C00DE9663 /* NonConsumablesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45522178503C00DE9663 /* NonConsumablesHeader.swift */; };
+		C90F455A2178503C00DE9663 /* NonRenewableSubscriptionsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45532178503C00DE9663 /* NonRenewableSubscriptionsHeader.swift */; };
+		C90F455B2178503C00DE9663 /* ConsumablesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45542178503C00DE9663 /* ConsumablesHeader.swift */; };
+		C90F45682178504C00DE9663 /* ConsumablesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F455C2178504B00DE9663 /* ConsumablesController.swift */; };
+		C90F45692178504C00DE9663 /* NonConsumablesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F455D2178504B00DE9663 /* NonConsumablesController.swift */; };
+		C90F456A2178504C00DE9663 /* NextLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F455F2178504B00DE9663 /* NextLevel.swift */; };
+		C90F456B2178504C00DE9663 /* AutoRenewableSubscritpionContent1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45602178504B00DE9663 /* AutoRenewableSubscritpionContent1.swift */; };
+		C90F456C2178504C00DE9663 /* NonRenewableSubscritpionContent1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45612178504B00DE9663 /* NonRenewableSubscritpionContent1.swift */; };
+		C90F456D2178504C00DE9663 /* AutoRenewableSubscritpionContent2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45622178504B00DE9663 /* AutoRenewableSubscritpionContent2.swift */; };
+		C90F456E2178504C00DE9663 /* SecondaryVirtualCurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45632178504C00DE9663 /* SecondaryVirtualCurrencyController.swift */; };
+		C90F456F2178504C00DE9663 /* NonRenewableSubscriptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45642178504C00DE9663 /* NonRenewableSubscriptionsController.swift */; };
+		C90F45702178504C00DE9663 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45652178504C00DE9663 /* CollectionViewController.swift */; };
+		C90F45712178504C00DE9663 /* VirtualGoodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45662178504C00DE9663 /* VirtualGoodsController.swift */; };
+		C90F45722178504C00DE9663 /* AutoRenewableSubscriptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */; };
+		C90F457A2178528100DE9663 /* RebeloperStoreNotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45742178528100DE9663 /* RebeloperStoreNotificationNames.swift */; };
+		C90F457B2178528100DE9663 /* RebeloperStoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45752178528100DE9663 /* RebeloperStoreKeys.swift */; };
+		C90F457C2178528100DE9663 /* RebeloperStoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45762178528100DE9663 /* RebeloperStoreExtensions.swift */; };
+		C90F457D2178528100DE9663 /* RebeloperStoreBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45772178528100DE9663 /* RebeloperStoreBasic.swift */; };
+		C90F457E2178528100DE9663 /* RebeloperStoreConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C90F45782178528100DE9663 /* RebeloperStoreConfig.plist */; };
+		C90F457F2178528100DE9663 /* RebeloperStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F45792178528100DE9663 /* RebeloperStoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A33AA69ECCB4BD499003FE7C /* Pods-RebeloperStoreStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebeloperStoreStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebeloperStoreStarter/Pods-RebeloperStoreStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		A6663E16A5AC2DE3DCECCCBD /* Pods_RebeloperStoreStarter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RebeloperStoreStarter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90F452A21784DEF00DE9663 /* RebeloperStoreStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebeloperStoreStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90F452D21784DEF00DE9663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C90F452F21784DEF00DE9663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C90F453221784DEF00DE9663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C90F453421784DF100DE9663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90F453721784DF100DE9663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90F453921784DF100DE9663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90F454121784E6900DE9663 /* Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		C90F454221784E6900DE9663 /* DummyVirtualCurrencyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyVirtualCurrencyController.swift; sourceTree = "<group>"; };
+		C90F454321784E6900DE9663 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C90F454721784E7700DE9663 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C90F454D2178503C00DE9663 /* PurchaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseCell.swift; sourceTree = "<group>"; };
+		C90F454F2178503C00DE9663 /* AutoRenewableSubscriptionsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRenewableSubscriptionsHeader.swift; sourceTree = "<group>"; };
+		C90F45502178503C00DE9663 /* SecondaryVirtualCurrencyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryVirtualCurrencyHeader.swift; sourceTree = "<group>"; };
+		C90F45512178503C00DE9663 /* VirtualGoodsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualGoodsHeader.swift; sourceTree = "<group>"; };
+		C90F45522178503C00DE9663 /* NonConsumablesHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonConsumablesHeader.swift; sourceTree = "<group>"; };
+		C90F45532178503C00DE9663 /* NonRenewableSubscriptionsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonRenewableSubscriptionsHeader.swift; sourceTree = "<group>"; };
+		C90F45542178503C00DE9663 /* ConsumablesHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumablesHeader.swift; sourceTree = "<group>"; };
+		C90F455C2178504B00DE9663 /* ConsumablesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumablesController.swift; sourceTree = "<group>"; };
+		C90F455D2178504B00DE9663 /* NonConsumablesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonConsumablesController.swift; sourceTree = "<group>"; };
+		C90F455F2178504B00DE9663 /* NextLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextLevel.swift; sourceTree = "<group>"; };
+		C90F45602178504B00DE9663 /* AutoRenewableSubscritpionContent1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRenewableSubscritpionContent1.swift; sourceTree = "<group>"; };
+		C90F45612178504B00DE9663 /* NonRenewableSubscritpionContent1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonRenewableSubscritpionContent1.swift; sourceTree = "<group>"; };
+		C90F45622178504B00DE9663 /* AutoRenewableSubscritpionContent2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRenewableSubscritpionContent2.swift; sourceTree = "<group>"; };
+		C90F45632178504C00DE9663 /* SecondaryVirtualCurrencyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryVirtualCurrencyController.swift; sourceTree = "<group>"; };
+		C90F45642178504C00DE9663 /* NonRenewableSubscriptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonRenewableSubscriptionsController.swift; sourceTree = "<group>"; };
+		C90F45652178504C00DE9663 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C90F45662178504C00DE9663 /* VirtualGoodsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualGoodsController.swift; sourceTree = "<group>"; };
+		C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRenewableSubscriptionsController.swift; sourceTree = "<group>"; };
+		C90F45742178528100DE9663 /* RebeloperStoreNotificationNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreNotificationNames.swift; sourceTree = "<group>"; };
+		C90F45752178528100DE9663 /* RebeloperStoreKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreKeys.swift; sourceTree = "<group>"; };
+		C90F45762178528100DE9663 /* RebeloperStoreExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreExtensions.swift; sourceTree = "<group>"; };
+		C90F45772178528100DE9663 /* RebeloperStoreBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreBasic.swift; sourceTree = "<group>"; };
+		C90F45782178528100DE9663 /* RebeloperStoreConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RebeloperStoreConfig.plist; sourceTree = "<group>"; };
+		C90F45792178528100DE9663 /* RebeloperStoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebeloperStoreService.swift; sourceTree = "<group>"; };
+		D076FA13A65CF9EBE08932EB /* Pods-RebeloperStoreStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebeloperStoreStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-RebeloperStoreStarter/Pods-RebeloperStoreStarter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E3D5F07507D54DF6553788 /* Pods_RebeloperStoreStarter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +97,8 @@
 			children = (
 				C90F452C21784DEF00DE9663 /* RebeloperStoreStarter */,
 				C90F452B21784DEF00DE9663 /* Products */,
+				D6B710DC6E82A878E1707B9C /* Pods */,
+				F1EAED20D2A5EF87A7959E9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +113,129 @@
 		C90F452C21784DEF00DE9663 /* RebeloperStoreStarter */ = {
 			isa = PBXGroup;
 			children = (
+				C90F453F21784E3300DE9663 /* Main */,
+				C90F454921784FF500DE9663 /* RebeloperStore */,
+				C90F454A2178500400DE9663 /* Views */,
+				C90F454B2178501300DE9663 /* Controllers */,
+			);
+			path = RebeloperStoreStarter;
+			sourceTree = "<group>";
+		};
+		C90F453F21784E3300DE9663 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C90F454021784E5100DE9663 /* Other */,
 				C90F452D21784DEF00DE9663 /* AppDelegate.swift */,
-				C90F452F21784DEF00DE9663 /* ViewController.swift */,
-				C90F453121784DEF00DE9663 /* Main.storyboard */,
+				C90F454721784E7700DE9663 /* MainTabBarController.swift */,
 				C90F453421784DF100DE9663 /* Assets.xcassets */,
 				C90F453621784DF100DE9663 /* LaunchScreen.storyboard */,
 				C90F453921784DF100DE9663 /* Info.plist */,
 			);
-			path = RebeloperStoreStarter;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C90F454021784E5100DE9663 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C90F454221784E6900DE9663 /* DummyVirtualCurrencyController.swift */,
+				C90F454321784E6900DE9663 /* Extensions.swift */,
+				C90F454121784E6900DE9663 /* Setup.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C90F454921784FF500DE9663 /* RebeloperStore */ = {
+			isa = PBXGroup;
+			children = (
+				C90F45732178528100DE9663 /* RebeloperStoreBasic */,
+			);
+			path = RebeloperStore;
+			sourceTree = "<group>";
+		};
+		C90F454A2178500400DE9663 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C90F454C2178503C00DE9663 /* Cells */,
+				C90F454E2178503C00DE9663 /* Headers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C90F454B2178501300DE9663 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C90F45672178504C00DE9663 /* AutoRenewableSubscriptionsController.swift */,
+				C90F45652178504C00DE9663 /* CollectionViewController.swift */,
+				C90F455C2178504B00DE9663 /* ConsumablesController.swift */,
+				C90F455D2178504B00DE9663 /* NonConsumablesController.swift */,
+				C90F45642178504C00DE9663 /* NonRenewableSubscriptionsController.swift */,
+				C90F455E2178504B00DE9663 /* Other */,
+				C90F45632178504C00DE9663 /* SecondaryVirtualCurrencyController.swift */,
+				C90F45662178504C00DE9663 /* VirtualGoodsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C90F454C2178503C00DE9663 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C90F454D2178503C00DE9663 /* PurchaseCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C90F454E2178503C00DE9663 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C90F454F2178503C00DE9663 /* AutoRenewableSubscriptionsHeader.swift */,
+				C90F45502178503C00DE9663 /* SecondaryVirtualCurrencyHeader.swift */,
+				C90F45512178503C00DE9663 /* VirtualGoodsHeader.swift */,
+				C90F45522178503C00DE9663 /* NonConsumablesHeader.swift */,
+				C90F45532178503C00DE9663 /* NonRenewableSubscriptionsHeader.swift */,
+				C90F45542178503C00DE9663 /* ConsumablesHeader.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C90F455E2178504B00DE9663 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C90F455F2178504B00DE9663 /* NextLevel.swift */,
+				C90F45602178504B00DE9663 /* AutoRenewableSubscritpionContent1.swift */,
+				C90F45612178504B00DE9663 /* NonRenewableSubscritpionContent1.swift */,
+				C90F45622178504B00DE9663 /* AutoRenewableSubscritpionContent2.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C90F45732178528100DE9663 /* RebeloperStoreBasic */ = {
+			isa = PBXGroup;
+			children = (
+				C90F45742178528100DE9663 /* RebeloperStoreNotificationNames.swift */,
+				C90F45752178528100DE9663 /* RebeloperStoreKeys.swift */,
+				C90F45762178528100DE9663 /* RebeloperStoreExtensions.swift */,
+				C90F45772178528100DE9663 /* RebeloperStoreBasic.swift */,
+				C90F45782178528100DE9663 /* RebeloperStoreConfig.plist */,
+				C90F45792178528100DE9663 /* RebeloperStoreService.swift */,
+			);
+			path = RebeloperStoreBasic;
+			sourceTree = "<group>";
+		};
+		D6B710DC6E82A878E1707B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33AA69ECCB4BD499003FE7C /* Pods-RebeloperStoreStarter.debug.xcconfig */,
+				D076FA13A65CF9EBE08932EB /* Pods-RebeloperStoreStarter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1EAED20D2A5EF87A7959E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6663E16A5AC2DE3DCECCCBD /* Pods_RebeloperStoreStarter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C90F453C21784DF100DE9663 /* Build configuration list for PBXNativeTarget "RebeloperStoreStarter" */;
 			buildPhases = (
+				2331FADC4AACF962F9CAAD55 /* [CP] Check Pods Manifest.lock */,
 				C90F452621784DEF00DE9663 /* Sources */,
 				C90F452721784DEF00DE9663 /* Frameworks */,
 				C90F452821784DEF00DE9663 /* Resources */,
+				01D57F095A779151CA0CB43F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +299,95 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90F453821784DF100DE9663 /* LaunchScreen.storyboard in Resources */,
+				C90F457E2178528100DE9663 /* RebeloperStoreConfig.plist in Resources */,
 				C90F453521784DF100DE9663 /* Assets.xcassets in Resources */,
-				C90F453321784DEF00DE9663 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01D57F095A779151CA0CB43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RebeloperStoreStarter/Pods-RebeloperStoreStarter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MerchantKit/MerchantKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MerchantKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebeloperStoreStarter/Pods-RebeloperStoreStarter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2331FADC4AACF962F9CAAD55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RebeloperStoreStarter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C90F452621784DEF00DE9663 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90F453021784DEF00DE9663 /* ViewController.swift in Sources */,
+				C90F454521784E6900DE9663 /* DummyVirtualCurrencyController.swift in Sources */,
+				C90F456B2178504C00DE9663 /* AutoRenewableSubscritpionContent1.swift in Sources */,
+				C90F456D2178504C00DE9663 /* AutoRenewableSubscritpionContent2.swift in Sources */,
+				C90F45592178503C00DE9663 /* NonConsumablesHeader.swift in Sources */,
+				C90F457F2178528100DE9663 /* RebeloperStoreService.swift in Sources */,
+				C90F45712178504C00DE9663 /* VirtualGoodsController.swift in Sources */,
 				C90F452E21784DEF00DE9663 /* AppDelegate.swift in Sources */,
+				C90F457B2178528100DE9663 /* RebeloperStoreKeys.swift in Sources */,
+				C90F456E2178504C00DE9663 /* SecondaryVirtualCurrencyController.swift in Sources */,
+				C90F45572178503C00DE9663 /* SecondaryVirtualCurrencyHeader.swift in Sources */,
+				C90F457D2178528100DE9663 /* RebeloperStoreBasic.swift in Sources */,
+				C90F45552178503C00DE9663 /* PurchaseCell.swift in Sources */,
+				C90F456F2178504C00DE9663 /* NonRenewableSubscriptionsController.swift in Sources */,
+				C90F45582178503C00DE9663 /* VirtualGoodsHeader.swift in Sources */,
+				C90F454821784E7700DE9663 /* MainTabBarController.swift in Sources */,
+				C90F456A2178504C00DE9663 /* NextLevel.swift in Sources */,
+				C90F454421784E6900DE9663 /* Setup.swift in Sources */,
+				C90F454621784E6900DE9663 /* Extensions.swift in Sources */,
+				C90F457C2178528100DE9663 /* RebeloperStoreExtensions.swift in Sources */,
+				C90F45722178504C00DE9663 /* AutoRenewableSubscriptionsController.swift in Sources */,
+				C90F457A2178528100DE9663 /* RebeloperStoreNotificationNames.swift in Sources */,
+				C90F45562178503C00DE9663 /* AutoRenewableSubscriptionsHeader.swift in Sources */,
+				C90F45692178504C00DE9663 /* NonConsumablesController.swift in Sources */,
+				C90F455A2178503C00DE9663 /* NonRenewableSubscriptionsHeader.swift in Sources */,
+				C90F455B2178503C00DE9663 /* ConsumablesHeader.swift in Sources */,
+				C90F45702178504C00DE9663 /* CollectionViewController.swift in Sources */,
+				C90F45682178504C00DE9663 /* ConsumablesController.swift in Sources */,
+				C90F456C2178504C00DE9663 /* NonRenewableSubscritpionContent1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C90F453121784DEF00DE9663 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C90F453221784DEF00DE9663 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C90F453621784DF100DE9663 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +517,12 @@
 		};
 		C90F453D21784DF100DE9663 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33AA69ECCB4BD499003FE7C /* Pods-RebeloperStoreStarter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R252PR8AVU;
-				INFOPLIST_FILE = RebeloperStoreStarter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RebeloperStoreStarter/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +536,12 @@
 		};
 		C90F453E21784DF100DE9663 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D076FA13A65CF9EBE08932EB /* Pods-RebeloperStoreStarter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R252PR8AVU;
-				INFOPLIST_FILE = RebeloperStoreStarter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RebeloperStoreStarter/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

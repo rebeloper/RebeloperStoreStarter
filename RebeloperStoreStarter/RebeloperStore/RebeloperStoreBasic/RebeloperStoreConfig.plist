@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Products</key>
+	<array>
+        <dict>
+            <key>Identifier</key>
+            <string>com.Rebeloper.RebeloperStore.virtualCurrencyPackConsumable1</string>
+            <key>Kind</key>
+            <string>Consumable</string>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>com.Rebeloper.RebeloperStore.virtualCurrencyPackConsumable2</string>
+            <key>Kind</key>
+            <string>Consumable</string>
+        </dict>
+		<dict>
+			<key>Identifier</key>
+			<string>com.Rebeloper.RebeloperStore.nonConsumable1</string>
+			<key>Kind</key>
+			<string>NonConsumable</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>com.Rebeloper.RebeloperStore.nonConsumable2</string>
+			<key>Kind</key>
+			<string>NonConsumable</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>com.Rebeloper.RebeloperStore.nonRenewableSubscription1</string>
+			<key>Kind</key>
+			<string>Subscription</string>
+			<key>Automatically Renews</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>com.Rebeloper.RebeloperStore.group1.autoRenewableSubscription1</string>
+			<key>Kind</key>
+			<string>Subscription</string>
+			<key>Automatically Renews</key>
+			<true/>
+		</dict>
+        <dict>
+            <key>Identifier</key>
+            <string>com.Rebeloper.RebeloperStore.group1.autoRenewableSubscription2</string>
+            <key>Kind</key>
+            <string>Subscription</string>
+            <key>Automatically Renews</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>com.Rebeloper.RebeloperStore.group1.autoRenewableSubscription3</string>
+            <key>Kind</key>
+            <string>Subscription</string>
+            <key>Automatically Renews</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>com.Rebeloper.RebeloperStore.group2.autoRenewableSubscription1</string>
+            <key>Kind</key>
+            <string>Subscription</string>
+            <key>Automatically Renews</key>
+            <true/>
+        </dict>
+	</array>
+	<key>User Info</key>
+	<dict>
+		<key>Any Key</key>
+		<string>Any Value</string>
+	</dict>
+</dict>
+</plist>
