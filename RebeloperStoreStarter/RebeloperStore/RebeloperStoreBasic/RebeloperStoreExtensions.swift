@@ -67,7 +67,8 @@ extension AppDelegate: MerchantDelegate, ProductInterfaceControllerDelegate {
         switch result {
         case .succeeded:
             print("didCommit: \(purchase) with result: \(result)")
-            NotificationCenter.default.post(name: notificationNameReloadProductsUI, object: nil, userInfo: nil)
+            let userInfo = [RebeloperStoreKey.UserInfo.purchase: purchase, RebeloperStoreKey.UserInfo.result: result] as [String : Any]
+            NotificationCenter.default.post(name: notificationNameReloadProductsUI, object: nil, userInfo: userInfo)
         case .failed(let err, shouldDisplayError: true):
             RebeloperStoreService.showAlert(style: .alert, title: "Error", message: "\(err.localizedDescription)")
         case .failed(_, _):

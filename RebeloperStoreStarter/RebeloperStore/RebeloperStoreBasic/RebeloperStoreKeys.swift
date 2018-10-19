@@ -15,6 +15,7 @@ struct RebeloperStoreKey {
     
     struct UserInfo {
         static let purchase = "purchase"
+        static let result = "result"
     }
     
     struct Product {
