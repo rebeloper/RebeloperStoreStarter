@@ -1,1 +1,1 @@
-![RebeloperStore](https://github.com/rebeloper/RebeloperStoreStarter/blob/master/RebeloperStore.gif?raw=true)
+![RebeloperStore](https://github.com/rebeloper/RebeloperStoreStarter/blob/master/RebeloperStoreTitle.gif?raw=true)
