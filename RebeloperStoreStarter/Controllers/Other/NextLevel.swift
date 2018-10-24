@@ -17,7 +17,7 @@ class NextLevel: UIViewController {
         label.textAlignment = .center
         label.numberOfLines = 0
         label.text = """
-        Welome to the Unlocked
+        Welcome to the Unlocked
         Next Level
         """
         return label

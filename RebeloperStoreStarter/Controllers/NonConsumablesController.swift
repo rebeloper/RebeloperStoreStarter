@@ -35,7 +35,7 @@ class NonConsumablesController: CollectionViewController, PurchaseCellDelegate, 
     
     func commitNonConsumablePurchase(userInfo: [String : Any]?) {
         guard let userInfo = userInfo, let purchase = userInfo[RebeloperStoreKey.UserInfo.purchase] as? Purchase else { return }
-        RebeloperStore.commitPurchase(purchase)
+//        RebeloperStore.commitPurchase(purchase)
     }
     
     // MARK: -

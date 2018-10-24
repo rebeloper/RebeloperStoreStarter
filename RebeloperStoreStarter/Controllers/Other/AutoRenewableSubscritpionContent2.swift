@@ -24,7 +24,7 @@ class AutoRenewableSubscritpionContent2: UIViewController {
             let expiryDateString = expiryDate.asString(style: DateFormatter.Style.full)
             let duration: TimeInterval = expiryDate.timeIntervalSince1970 - Date().timeIntervalSince1970
             label.text = """
-            Welome to the Unlocked
+            Welcome to the Unlocked
             Auto-renewable
             Subscription Content 2
             
@@ -36,7 +36,7 @@ class AutoRenewableSubscritpionContent2: UIViewController {
             """
         } else {
             label.text = """
-            Welome to the Unlocked
+            Welcome to the Unlocked
             Auto-renewable
             Subscription Content 2
             
